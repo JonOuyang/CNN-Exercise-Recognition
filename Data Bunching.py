@@ -22,7 +22,6 @@ skel = np.load("C:/Users/jonso/OneDrive/Desktop/Trinh Project/Originals/skel00a.
 print(skel.shape)
 print (np.array_equal(skel, pdata0))
 
-n = "64"
 s00 = np.load("file path for skeleton 00")
 s01 = np.load("file path for skeleton 01")
 s02 = np.load("file path for skeleton 02")
