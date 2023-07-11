@@ -15,7 +15,8 @@ A total of 15 models are created for testing.
 """
 
 num_classes = 11
-input_shape = (int(n), 14, 2)
+n = 64 #n is the batch size
+input_shape = (n, 14, 2)
 
 #6 CNN layers, 8 total layers
 def build_model6(pretrained=None):
