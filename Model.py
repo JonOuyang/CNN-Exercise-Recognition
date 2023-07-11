@@ -14,6 +14,9 @@ A total of 15 models are created for testing.
 5 model x 3 input = 15 models
 """
 
+num_classes = 11
+input_shape = (int(n), 14, 2)
+
 #6 CNN layers, 8 total layers
 def build_model6(pretrained=None):
     model = keras.Sequential([
