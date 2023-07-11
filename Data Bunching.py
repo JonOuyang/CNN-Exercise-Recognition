@@ -87,9 +87,6 @@ y_utest = np.concatenate((l00, l05, l12, l13, l20))
 print(x_train.shape)
 print(y_train.shape)
 
-num_classes = 11
-input_shape = (int(n), 14, 2)
-
 x_train = np.concatenate((s01, s02, s03, s04, s06, s07, s08, s16, s17, s18))
 y_train = np.concatenate((l01, l02, l03, l04, l06, l07, l08, l16, l17, l18))
 x_val = np.concatenate((s14, s15, s19))
