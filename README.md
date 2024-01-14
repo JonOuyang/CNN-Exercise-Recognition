@@ -8,3 +8,5 @@ This research investigates the difference in inferencing speeds given various mo
 - the original training dataset is skeleton only, not RGB imaging, so Openpose isn't used in this repository
 
 Please see Trinh Project Data.pdf for the findings of this testing. 
+
+Our work was presented at the 2023 TRON Symposium hosted by IEEE at Tokyo University Tokyo, Japan!
